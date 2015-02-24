@@ -9,26 +9,8 @@ using SpecUI.Extensions;
 using SpecUI.Models;
 using SpecUI.Specs;
 
-namespace SpecUI
+namespace SpecUI.Controllers
 {
-    /*
-     * TODO
-     * 
-     * Better UI
-     * JS refactoring
-     * C# refactoring
-     * 
-     * DONE Null values for value types
-     * DONE Try mixing an array and non array value
-     * DONE Descriptions don't come back after save()
-     * DONE Add value by default when creating an array
-     * DONE Remove values from array
-     * DONE Spec descriptions
-     * DONE Criterion descriptions
-     * Validation
-     *  - DONE must work for individual properties
-     *  - DEFER must work for arrays
-    */
     public class SpecsController : ApiController
     {
         public OutputModel Get([FromUri] string id)

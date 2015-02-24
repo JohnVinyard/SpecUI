@@ -4,7 +4,7 @@ using System.Web.Http;
 using System.Net.Http;
 using System.IO;
 
-namespace SpecUI
+namespace SpecUI.Controllers
 {
     public class UIController : ApiController
     {

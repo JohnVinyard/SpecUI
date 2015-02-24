@@ -2,7 +2,7 @@
 using System.Web.Http;
 using SpecUI.Data;
 
-namespace SpecUI
+namespace SpecUI.Controllers
 {
     public class DataController : ApiController
     {
