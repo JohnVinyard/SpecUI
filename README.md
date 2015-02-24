@@ -1,6 +1,10 @@
 ﻿# Spec Editor
 
-This spike seeks to demonstrate that we can *auto-generate* a UI for quote filters, only using slightly modified versions of the [Specification](http://en.wikipedia.org/wiki/Specification_pattern) pattern that we're currently employing.  Modifications include:
+This spike seeks to demonstrate that we can *auto-generate* a UI for quote filters, only using slightly modified versions of the [Specification](http://en.wikipedia.org/wiki/Specification_pattern) pattern that we're currently employing.  
+
+![example UI](https://raw.githubusercontent.com/JohnVinyarduShip/SpecUI/master/Spec%20Editor.png)
+
+Modifications include:
 
 - Adding a method to validate the Specification data (e.g., for a hypothetical `MaxWeightInPounds` spec, we'd validate that the `MaxWeightInPounds.MaxPounds` property was greater than zero.
 - Decorating classes and properties with attributes that provide text for the UI, e.g.
