@@ -97,6 +97,7 @@
     <Compile Include="Specs\BaseShipmentSpec.cs" />
     <Compile Include="Specs\HasLocationType.cs" />
     <Compile Include="Specs\IShipmentSpec.cs" />
+    <Compile Include="Specs\IsInsuredFor.cs" />
     <Compile Include="Specs\IsNotPerishable.cs" />
     <Compile Include="Specs\IValidationError.cs" />
     <Compile Include="Specs\LocationTypeIsOneOf.cs" />
