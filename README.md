@@ -21,6 +21,7 @@ public class NotPerishable {
 The spike assumes that we'll be storing the specification data in a document or simple key value database, and *not* in a relational database.
 
 ## TODOs
-- The UI sucks pretty bad, and needs help
+- The UI code sucks pretty bad, and needs help
 - Some of the type conversion code is awful.  I know we can do better.
-- Some serious javascript refactoring is in order.  I chose knockout for th UI, but there may be a better choice.
+- Some serious javascript refactoring is in order.  I chose knockout for the UI, but there may be a better choice.
+- It should be possible to create custom UI for a particular spec, if needed
