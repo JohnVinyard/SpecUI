@@ -85,6 +85,7 @@
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Extensions\SpecModelExtensions.cs" />
     <Compile Include="Extensions\TypeExtensions.cs" />
+    <Compile Include="Models\ContainerType.cs" />
     <Compile Include="Models\CriterionModel.cs" />
     <Compile Include="Models\InputModel.cs" />
     <Compile Include="Models\JavascriptType.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Specs\IsNotPerishable.cs" />
     <Compile Include="Specs\IValidationError.cs" />
     <Compile Include="Specs\LocationTypeIsOneOf.cs" />
+    <Compile Include="Specs\MaxWeightForContainer.cs" />
     <Compile Include="Specs\Specification.cs" />
     <Compile Include="Specs\TitleContainsSpec.cs" />
     <Compile Include="Specs\TitleIsOneOf.cs" />

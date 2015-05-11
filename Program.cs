@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.Owin.Hosting;
+using Newtonsoft.Json;
 
 namespace SpecUI
 {
@@ -10,7 +11,8 @@ namespace SpecUI
             var options = new StartOptions();
             options.Urls.Add(String.Format("http://localhost:{0}", port));
             options.Urls.Add(String.Format("http://127.0.0.1:{0}", port));
-            using (WebApp.Start<Startup>(options)) {
+            using (WebApp.Start<Startup>(options))
+            {
                 Console.ReadLine();
             }
         }
